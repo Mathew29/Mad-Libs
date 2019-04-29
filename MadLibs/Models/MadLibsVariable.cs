@@ -2,19 +2,24 @@ namespace MadLibs.Models
 {
   public class MadLibsVariable
   {
-    private string _exclamation;
+    private string _verb;
     private string _adverb;
     private string _noun;
     private string _adjective;
+    private string _name;
+    private string _number;
+    private string _vehicle;
+    private string _animal;
+    private string _place;
 
-    public string GetExclamation()
+    public string GetVerb()
     {
-      return _exclamation;
+      return _verb;
     }
 
-    public void SetExclamation(string newExclamation)
+    public void SetVerb(string newVerb)
     {
-      _exclamation = newExclamation;
+      _verb = newVerb;
     }
 
     public string GetAdverb()
@@ -45,6 +50,55 @@ namespace MadLibs.Models
     public void SetAdjective(string newAdjective)
     {
       _adjective = newAdjective;
+    }
+    public string GetName()
+    {
+      return _name;
+    }
+
+    public void SetName(string newName)
+    {
+      _name = newName;
+    }
+
+    public string GetNumber()
+    {
+      return _number;
+    }
+
+    public void SetNumber(string newNumber)
+    {
+      _number = newNumber;
+    }
+
+    public string GetVehicle()
+    {
+      return _vehicle;
+    }
+
+    public void SetVehicle(string newVehicle)
+    {
+      _vehicle = newVehicle;
+    }
+
+    public string GetAnimal()
+    {
+      return _animal;
+    }
+
+    public void SetAnimal(string newAnimal)
+    {
+      _animal = newAnimal;
+    }
+
+    public string GetPlace()
+    {
+      return _place;
+    }
+
+    public void SetPlace(string newPlace)
+    {
+      _place = newPlace;
     }
 
   }
